@@ -1,0 +1,16 @@
+# Entorno virtual
+venv/
+.venv/
+
+# Base de datos local
+*.db
+*.db.wal
+
+# Datos sensibles (Capa Bronze/Silver/Gold)
+data/
+*.csv
+*.xlsx
+
+# Python cache
+__pycache__/
+*.py[cod]
